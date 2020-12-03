@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom:10px;
+}
+
+.error {
+    color:red;
+    padding: 10px 0px 10px 0px;
+}
+
+.message {
+    color:green;
+    padding: 10px 0px 10px 0px;
+}
+
+label {
+    display:block;
+}
+
+label.inline {
+    display:inline;
+}
+
+input[type=text], input[type=email], select, textarea {
+    min-width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Change submit button background color on hover */
+input[type=submit]:hover {
+    background-color: #45a049;
+}

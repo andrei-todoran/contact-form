@@ -89,8 +89,8 @@
 
             // send email to admin
             $emailClass = new Email();
-            $emailClass->setToEmail('andrei.todoran@gmail.com');
-            $emailClass->setToName('Andrei');
+            $emailClass->setToEmail(CONTACT_FORM_EMAIL);
+            $emailClass->setToName(CONTACT_FORM_NAME);
             $emailClass->setFromName($name);
             $emailClass->setFromEmail($email);
             $emailClass->setSubject('Message from a customer');
